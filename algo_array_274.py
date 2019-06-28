@@ -6,9 +6,10 @@ Created on Wed Jun 26 12:15:41 2019
 """
 
 """ 274 H-index """
-
+""" 81% """
 
 def hIndex(citations):
+    # O(N*logN)
     if len(citations) == 0:
         return 0
     
